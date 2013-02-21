@@ -1,0 +1,21 @@
+/* CSS declarations go here */
+html, body{
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	background: black;
+}
+
+#share{
+	position: absolute;
+	z-index:100;
+	left: 10px;
+	bottom: 5px;
+	padding: 0;
+	font-size: 0.5em;
+}
+
+#share .socialite{
+	display: inline-block;
+	padding: 0 0 0 5px;
+}
